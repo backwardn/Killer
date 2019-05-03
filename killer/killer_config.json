@@ -5,9 +5,9 @@
     "usb_connected_whitelist": {"DEAD:BEEF": 1},
     "cdrom_drive": "/dev/sr0",
     "battery_file": "/sys/class/power_supply/RUN_DEBUG",
-    "ethernet_connected_file": "/sys/class/net/RUN_DEBUG/carrier"
+    "ethernet_connected_file": "/sys/class/net/RUN_DEBUG/carrier",
     "bluetooth": {
-      "connected_whitelist": ["DE:AD:BE:EF:CA:FE"]
+      "connected_whitelist": ["DE:AD:BE:EF:CA:FE"],
       "paired_whitelist": {
       "DE:AD:BE:EF:CA:FE": "Generic Bluetooth Device"
       }
@@ -16,9 +16,9 @@
   "windows": {
     "ethernet_interface": "DE-AD-BE-EF-CA-FE",
     "usb_id_whitelist": {},
-    "usb_connected_whitelist": {}
+    "usb_connected_whitelist": {},
     "bluetooth": {
-      "connected_whitelist": ["DE:AD:BE:EF:CA:FE"]
+      "connected_whitelist": ["DE:AD:BE:EF:CA:FE"],
       "paired_whitelist": {
       "DE:AD:BE:EF:CA:FE": "Generic Bluetooth Device"
       }
